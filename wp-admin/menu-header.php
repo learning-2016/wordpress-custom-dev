@@ -238,7 +238,10 @@ function _wp_menu_output( $menu, $submenu, $submenu_as_parent = true ) {
 
  <li class="wp-not-current-submenu menu-top menu-icon-users menu-top-first" id="menu-users">
 
-	<a 
+
+
+
+<a 
 		href="home.php" 
 		class="wp-not-current-submenu menu-top menu-icon-users menu-top-first home-active">
 		<div class="wp-menu-arrow"><div> 
@@ -246,6 +249,17 @@ function _wp_menu_output( $menu, $submenu, $submenu_as_parent = true ) {
 		<div class="wp-menu-image dashicons-before dashicons-admin-users"><br> </div>
 		<div class="wp-menu-name">Home</div>
 	</a>
+
+
+
+<a 
+		href="new-menu.php" 
+		class="wp-not-current-submenu menu-top menu-icon-users menu-top-first home-active">
+		<div class="wp-menu-arrow"><div> 
+		</div></div>
+		<div class="wp-menu-image dashicons-before dashicons-admin-users"><br> </div>
+		<div class="wp-menu-name">new menu added</div>
+	</a>	
 
 
 		</li>
