@@ -1,0 +1,317 @@
+.jigoshop #breadcrumb a {
+	color: #ff4200 !important;
+	text-decoration: underline;
+}
+
+.jigoshop #breadcrumb a:hover {
+	text-decoration: none;
+}
+
+.jigoshop .site-content {
+	width: 1170px;
+}
+
+.jigoshop .products li {
+	width: 32%;
+	min-height: 150px;
+	margin-bottom: 65px;
+}
+
+a.button, button.button, input.button, #review_form #submit {
+	background-color: #ff4200;
+}
+
+a.button:hover,
+button.button:hover,
+input.button:hover,
+#review_form #submit:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.products li .price,
+div.product p.price,
+p.stock {
+	color: #60bdff;
+}
+
+.products li strong {
+	padding: 0 10px;
+	min-height: 50px;
+}
+
+.products li span.price {
+	padding-right: 10px;
+	font-size: 20px;
+}
+
+.products li strong:hover {
+	color: #ff4200;
+}
+
+.products li a.button {
+	margin-left: 10px;
+}
+
+.products li span.onsale {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 10px 20px;
+	margin: 0;
+	background: #ff4200; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff4200 0%, #ff6600 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff4200), color-stop(100%,#ff6600)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff4200 0%,#ff6600 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff4200 0%,#ff6600 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff4200 0%,#ff6600 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ff4200 0%,#ff6600 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4200', endColorstr='#ff6600',GradientType=0 ); /* IE6-9 */
+
+}
+
+.button-alt {
+	margin-top: 0;
+	padding: 7px;
+	background: #919191 !important; /* Old browsers */
+	background: -moz-linear-gradient(top,  #919191 0%, #45484d 100%) !important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#919191), color-stop(100%,#45484d)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #919191 0%,#45484d 100%) !important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #919191 0%,#45484d 100%) !important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #919191 0%,#45484d 100%) !important; /* IE10+ */
+	background: linear-gradient(to bottom,  #919191 0%,#45484d 100%) !important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#919191', endColorstr='#45484d',GradientType=0 ) !important; /* IE6-9 */
+	border: 1px solid #333;
+	-webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.075),inset 0 1px 0 rgba(255,255,255,.3),0 1px 2px rgba(0,0,0,.1);
+	-moz-box-shadow: inset 0 -1px 0 rgba(0,0,0,.075),inset 0 1px 0 rgba(255,255,255,.3),0 1px 2px rgba(0,0,0,.1);
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,.075),inset 0 1px 0 rgba(255,255,255,.3),0 1px 2px rgba(0,0,0,.1);	
+}
+
+.button-alt:hover {
+	background: #333333 !important; /* Old browsers */
+	background: -moz-linear-gradient(top,  #333333 0%, #333333 100%) !important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#333333), color-stop(100%,#333333)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #333333 0%,#333333 100%) !important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #333333 0%,#333333 100%) !important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #333333 0%,#333333 100%) !important; /* IE10+ */
+	background: linear-gradient(to bottom,  #333333 0%,#333333 100%) !important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#333333',GradientType=0 ) !important; /* IE6-9 */
+}
+
+
+.jigoshop .site-content .quantity input.plus,
+.jigoshop .site-content .quantity input.minus {
+	background-color: #333;
+}
+
+.jigoshop .site-content .quantity input.plus:hover,
+.jigoshop .site-content .quantity input.minus:hover {
+	background-color: #ff4200;
+}
+
+.related ul.products {
+	float: none;
+	width: 100%;
+}
+
+.jigoshop .related.products li {
+	width: 19%;
+}
+
+div.product div.summary,
+div.product div.images {
+	width: 48%;
+}
+
+.single-product div.product div.images img {
+	width: 100%
+}
+
+.price ins {
+	background-color: #E8E8E8;
+}
+
+.product-remove a.remove {
+	background-color: rgb(250,0,0);
+	margin: 0 auto;
+}
+
+.product-remove a.remove:hover {
+	background-color: #333;
+}
+
+.product-name a:hover {
+	color: #333;
+}
+
+table.shop_table th {
+	color: #333;
+	font-size: 14px;
+}
+
+.jigoshop .site-content .product-quantity .quantity input.qty {
+	text-align: center;
+}
+
+.shop_table.cart .actions a.checkout-button:hover {
+	color: #fff;
+}
+
+.cart-collaterals .cart_totals,
+.cart-collaterals .shipping_calculator {
+	width: 48%;
+}
+
+form .form-row input.input-text:focus,
+#content .form-row input.input-text:focus,
+form .form-row textarea:focus,
+#content .form-row textarea:focus {
+	box-shadow: 		inset 0 0 0 1px #ff4200;
+	-webkit-box-shadow: inset 0 0 0 1px #ff4200;
+	-moz-box-shadow: 	inset 0 0 0 1px #ff4200;
+}
+
+#payment div.payment_box,
+#payment div.payment_box {
+	background: #f2f9fe; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f2f9fe 0%, #d6f0fd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f9fe), color-stop(100%,#d6f0fd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f2f9fe 0%,#d6f0fd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f2f9fe 0%,#d6f0fd 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f2f9fe 0%,#d6f0fd 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f2f9fe 0%,#d6f0fd 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f9fe', endColorstr='#d6f0fd',GradientType=0 ); /* IE6-9 */
+}
+
+.form-row .required {
+	color: #ff4200;
+}
+
+form .form-row input.input-text,
+#content .form-row input.input-text,
+form .form-row textarea,
+#content .form-row textarea {
+	line-height: normal;
+}
+
+#payment .payment_methods.methods li input#payment_method_cheque,
+#payment .payment_methods.methods li label {
+	display: inline;
+}
+
+td.cart-row-subtotal,
+td.cart-row-total {
+	color: #ff4200;
+}
+
+.checkout .jigoshop-invalid input.input-text,
+.checkout .jigoshop-validated select {
+	border-color: #ff4200 !important;
+}
+
+.jigoshop .site-content div.jigoshop_error,
+.jigoshop .site-content div.jigoshop_message {
+  position: relative;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background: #fcfbfc;
+  background: -webkit-gradient(linear,left top,left bottom,from(#fcfbfc),to(#f7f6f7));
+  background: -webkit-linear-gradient(#fcfbfc,#f7f6f7);
+  background: -moz-linear-gradient(center top,#fcfbfc 0,#f7f6f7 100%);
+  background: -moz-gradient(center top,#fcfbfc 0,#f7f6f7 100%);
+  text-shadow: 0 1px 0 #fff;
+  list-style: none outside!important;
+  *zoom: 1;
+  width: auto;
+  -webkit-box-shadow: inset 0 -2px 6px rgba(0,0,0,.05),inset 0 -2px 30px rgba(0,0,0,.015),inset 0 1px 0 #fff,0 1px 2px rgba(0,0,0,.3);
+  box-shadow: inset 0 -2px 6px rgba(0,0,0,.05),inset 0 -2px 30px rgba(0,0,0,.015),inset 0 1px 0 #fff,0 1px 2px rgba(0,0,0,.3);
+  border: 0;
+  border-top: 3px solid #b81c23;
+}
+
+.woocommerce-error li strong {
+    color: #b81c23;
+}
+
+.jigoshop .site-content div.jigoshop_error span,
+.jigoshop .site-content div.jigoshop_message span {
+	padding-bottom: 5px;
+}
+
+a.button,
+button.button,
+input.button,
+#review_form #submit {
+	padding: 6px 10px;
+}
+
+.products li a img {
+	width: 280px !important;
+	height: 280px !important;
+	border-color: #f1f1f1;
+	margin-bottom: 20px !important;
+}
+
+.related.products li a img {
+	width: 150px !important;
+	height: 150px !important;
+}
+
+.products li > a img:hover {
+	opacity: .7;
+}
+
+.star-rating,
+p.stars span,
+.star-rating span,
+p.stars span a:hover,
+p.stars span a:focus,
+p.stars span a.active {
+	background-image: url('../images/star.png');
+}
+
+a.lost_password {
+	padding: 5px 10px;
+	display: inline-block;
+}
+
+a.lost_password:hover {
+	color: #333;
+}
+
+.info a {
+	color: #ff4200;
+}
+
+.info a:hover {
+	color: #333;
+}
+
+.related.products li span.price {
+	font-size: 15px;
+	padding-top: 5px;
+}
+
+.form-cart-items td.actions a.checkout-button.button-alt:nth-of-type(2) {
+	background: #ff4200 !important; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff4200 0%, #ff6600 100%) !important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff4200), color-stop(100%,#ff6600)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff4200 0%,#ff6600 100%) !important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff4200 0%,#ff6600 100%) !important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff4200 0%,#ff6600 100%) !important; /* IE10+ */
+	background: linear-gradient(to bottom,  #ff4200 0%,#ff6600 100%) !important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4200', endColorstr='#ff6600',GradientType=0 ) !important; /* IE6-9 */
+	border-color: #ff4200;
+}
+
+.form-cart-items td.actions a.checkout-button.button-alt:nth-of-type(2):hover {
+	background: #ff6600 !important; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff6600 0%, #ff4200 100%) !important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff6600), color-stop(100%,#ff4200)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff6600 0%,#ff4200 100%) !important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff6600 0%,#ff4200 100%) !important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff6600 0%,#ff4200 100%) !important; /* IE10+ */
+	background: linear-gradient(to bottom,  #ff6600 0%,#ff4200 100%) !important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6600', endColorstr='#ff4200',GradientType=0 ) !important; /* IE6-9 */
+
+}
