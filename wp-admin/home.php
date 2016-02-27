@@ -11,6 +11,11 @@ require_once( dirname( __FILE__ ) . '/admin.php' );
  
 include( ABSPATH . 'wp-admin/admin-header.php' );
 ?>
+
+
+<h1> This is new page in the admin </h1>
+
+
 <br>
   <?php 
 
@@ -62,6 +67,20 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 </head>
 <body>
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
