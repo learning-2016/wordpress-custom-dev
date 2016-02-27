@@ -32,6 +32,7 @@ get_header(); ?>
 
 	 <?php include 'inc/queries.php'; ?>
 
+     <h1> This file is controlling the wordpress page</h1>
  
 
   	 <input type="text" > 
