@@ -551,16 +551,19 @@ class WP_Admin_Bar {
 	 * @access public
 	 */
 	public function add_menus() {
+
+        // content of the first admin bar
+
 		// User related, aligned right.
-		add_action( 'admin_bar_menu', 'wp_admin_bar_my_account_menu', 0 );
-		add_action( 'admin_bar_menu', 'wp_admin_bar_search_menu', 4 );
-		add_action( 'admin_bar_menu', 'wp_admin_bar_my_account_item', 7 );
+		add_action( 'admin_bar_menu', 'wp_admin_bar_my_account_menu', 0 ); // control the user drop down top right in admin first menu bar
+		add_action( 'admin_bar_menu', 'wp_admin_bar_search_menu', 4 ); // control search menu in top right bar admin
+		add_action( 'admin_bar_menu', 'wp_admin_bar_my_account_item', 7 ); // control the dropdown and menu in top right bar in admin page
 
 		// Site related.
 		add_action( 'admin_bar_menu', 'wp_admin_bar_sidebar_toggle', 0 );
-		add_action( 'admin_bar_menu', 'wp_admin_bar_wp_menu', 10 );
+		add_action( 'admin_bar_menu', 'wp_admin_bar_wp_menu', 10 ); // admin top right logo update controlled here
 		add_action( 'admin_bar_menu', 'wp_admin_bar_my_sites_menu', 20 );
-		add_action( 'admin_bar_menu', 'wp_admin_bar_site_menu', 30 );
+		add_action( 'admin_bar_menu', 'wp_admin_bar_site_menu', 30 ); // website redirect to front end and house logo - controlled here
 		add_action( 'admin_bar_menu', 'wp_admin_bar_customize_menu', 40 );
 		add_action( 'admin_bar_menu', 'wp_admin_bar_updates_menu', 50 );
 

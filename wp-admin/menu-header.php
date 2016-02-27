@@ -234,42 +234,9 @@ function _wp_menu_output( $menu, $submenu, $submenu_as_parent = true ) {
 		echo "</li>";
 	}
 
- ?>
-
- <li class="wp-not-current-submenu menu-top menu-icon-users menu-top-first" id="menu-users">
-
-
-
-
-<a 
-		href="home.php" 
-		class="wp-not-current-submenu menu-top menu-icon-users menu-top-first home-active">
-		<div class="wp-menu-arrow"><div> 
-		</div></div>
-		<div class="wp-menu-image dashicons-before dashicons-admin-users"><br> </div>
-		<div class="wp-menu-name">Home</div>
-	</a>
-
-
-
-<a 
-		href="new-menu.php" 
-		class="wp-not-current-submenu menu-top menu-icon-users menu-top-first home-active">
-		<div class="wp-menu-arrow"><div> 
-		</div></div>
-		<div class="wp-menu-image dashicons-before dashicons-admin-users"><br> </div>
-		<div class="wp-menu-name">new menu added</div>
-	</a>	
-
-
-		</li>
- <?php
 	echo '<li id="collapse-menu" class="hide-if-no-js"><div id="collapse-button"><div></div></div>';
 	echo '<span>' . esc_html__( 'Collapse menu' ) . '</span>';
-		echo "<li><a href=''>1213</a></li>";
-
-
-	 
+	echo '</li>';
 }
 
 ?>

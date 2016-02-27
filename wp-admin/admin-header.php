@@ -211,7 +211,7 @@ if ( current_user_can( 'customize' ) ) {
  *
  * @since 3.0.0
  */
-do_action( 'in_admin_header' );
+do_action( 'in_admin_header' ); // <---  here you can edit the top header menu
 ?>
 
 <div id="wpbody" role="main">

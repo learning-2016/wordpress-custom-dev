@@ -18,6 +18,8 @@
  * @since 1.5.0
  *
  * @param string $name The name of the specialised header.
+ *
+ * Links template
  */
 function get_header( $name = null ) {
 	/**

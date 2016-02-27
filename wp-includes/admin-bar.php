@@ -64,6 +64,9 @@ function _wp_admin_bar_init() {
  * @global WP_Admin_Bar $wp_admin_bar
  */
 function wp_admin_bar_render() {
+
+
+	echo "This where the top first admin bar controlled <br>";
 	global $wp_admin_bar;
 
 	if ( ! is_admin_bar_showing() || ! is_object( $wp_admin_bar ) )
@@ -95,6 +98,12 @@ function wp_admin_bar_render() {
 	 * @since 3.1.0
 	 */
 	do_action( 'wp_after_admin_bar_render' );
+
+
+
+
+
+	echo "<br><br><br><br><br>";
 }
 
 /**
@@ -107,8 +116,9 @@ function wp_admin_bar_render() {
 function wp_admin_bar_wp_menu( $wp_admin_bar ) {
 	$wp_admin_bar->add_menu( array(
 		'id'    => 'wp-logo',
-		'title' => '<span class="ab-icon"></span><span class="screen-reader-text">' . __( 'About WordPress' ) . '</span>',
+		'title' => '(Custom Logo)',
 		'href'  => self_admin_url( 'about.php' ),
+
 	) );
 
 	if ( is_user_logged_in() ) {
@@ -147,10 +157,18 @@ function wp_admin_bar_wp_menu( $wp_admin_bar ) {
 
 	// Add feedback link
 	$wp_admin_bar->add_menu( array(
-		'parent'    => 'wp-logo-external',
-		'id'        => 'feedback',
-		'title'     => __('Feedback'),
-		'href'      => __('https://wordpress.org/support/forum/requests-and-feedback'),
+			'parent'    => 'wp-logo-external',
+			'id'        => 'feedback',
+			'title'     => __('Feedback'),
+			'href'      => __('https://wordpress.org/support/forum/requests-and-feedback'),
+	) );
+
+	// Add feedback link
+	$wp_admin_bar->add_menu( array(
+			'parent'    => 'wp-logo-external',
+			'id'        => 'custom-added',
+			'title'     => __('Custom Added'),
+			'href'      => __('#'),
 	) );
 }
 
@@ -165,7 +183,7 @@ function wp_admin_bar_sidebar_toggle( $wp_admin_bar ) {
 	if ( is_admin() ) {
 		$wp_admin_bar->add_menu( array(
 			'id'    => 'menu-toggle',
-			'title' => '<span class="ab-icon"></span><span class="screen-reader-text">' . __( 'Menu' ) . '</span>',
+			'title' => '<span class="ab-icon"></span><span class="screen-reader-text">' . __( 'Menu' ) . '<-- menu'. '</span>',
 			'href'  => '#',
 		) );
 	}
@@ -179,6 +197,8 @@ function wp_admin_bar_sidebar_toggle( $wp_admin_bar ) {
  * @param WP_Admin_Bar $wp_admin_bar
  */
 function wp_admin_bar_my_account_item( $wp_admin_bar ) {
+
+
 	$user_id      = get_current_user_id();
 	$current_user = wp_get_current_user();
 
@@ -200,7 +220,7 @@ function wp_admin_bar_my_account_item( $wp_admin_bar ) {
 	$wp_admin_bar->add_menu( array(
 		'id'        => 'my-account',
 		'parent'    => 'top-secondary',
-		'title'     => $howdy . $avatar,
+		'title'     => "welcome 3lios alright --> " . $howdy . ' <-- '. $avatar . ' <--- ',
 		'href'      => $profile_url,
 		'meta'      => array(
 			'class'     => $class,
@@ -216,6 +236,9 @@ function wp_admin_bar_my_account_item( $wp_admin_bar ) {
  * @param WP_Admin_Bar $wp_admin_bar
  */
 function wp_admin_bar_my_account_menu( $wp_admin_bar ) {
+
+	//	Update user dropdown list
+
 	$user_id      = get_current_user_id();
 	$current_user = wp_get_current_user();
 
@@ -261,10 +284,25 @@ function wp_admin_bar_my_account_menu( $wp_admin_bar ) {
 	}
 
 	$wp_admin_bar->add_menu( array(
-		'parent' => 'user-actions',
-		'id'     => 'logout',
-		'title'  => __( 'Log Out' ),
-		'href'   => wp_logout_url(),
+			'parent' => 'user-actions',
+			'id'     => 'logout',
+			'title'  => __( 'Log Out' ),
+			'href'   => wp_logout_url(),
+	) );
+
+
+	$wp_admin_bar->add_menu( array(
+			'parent' => 'user-actions',
+			'id'     => 'login',
+			'title'  => __( 'login' ),
+			'href'   => wp_login_url(),
+	) );
+
+	$wp_admin_bar->add_menu( array(
+			'parent' => 'user-actions',
+			'id'     => 'billing',
+			'title'  => __( 'billing' ),
+			'href'   => home_url('billing'),
 	) );
 }
 
@@ -801,6 +839,8 @@ function wp_admin_bar_updates_menu( $wp_admin_bar ) {
  * @param WP_Admin_Bar $wp_admin_bar
  */
 function wp_admin_bar_search_menu( $wp_admin_bar ) {
+
+	//	header menu bar search field
 	if ( is_admin() )
 		return;
 

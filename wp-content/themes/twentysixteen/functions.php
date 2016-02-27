@@ -389,3 +389,5 @@ function twentysixteen_post_thumbnail_sizes_attr( $attr, $attachment, $size ) {
 	return $attr;
 }
 add_filter( 'wp_get_attachment_image_attributes', 'twentysixteen_post_thumbnail_sizes_attr', 10 , 3 );
+
+ 
